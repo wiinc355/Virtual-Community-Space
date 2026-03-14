@@ -1,10 +1,10 @@
-# web103_unit3_project# WEB103 Project 3 - *Name of App Here*
+# WEB103 Project 3 - *Virtual Community Space*
 
 Submitted by: **Derrick Woodall**
 
 About this web app: **This web application is a virtual community space that allows users to explore events happening in different locations through an interactive interface. The platform is built using React and connects to a PostgreSQL database that stores event information in a structured events table. Users can visually select from at least four locations on the interface to discover events that have occurred or are scheduled to occur there. Each location has its own dedicated detail page with a unique URL, where users can view a list of events associated with that specific place. The goal of the application is to help users easily find interesting activities and community events within the virtual environment.**
 
-Time spent: **X** hours
+Time spent: **15** hours
 
 ## Required Features
 
@@ -12,32 +12,32 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 
-- [ ] **The web app uses React to display data from the API**
-- [ ] **The web app is connected to a PostgreSQL database, with an appropriately structured Events table**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
-- [ ] **The web app displays a title.**
-- [ ] **Website includes a visual interface that allows users to select a location they would like to view.**
-  - [ ] *Note: A non-visual list of links to different locations is insufficient.* 
-- [ ] **Each location has a detail page with its own unique URL.**
-- [ ] **Clicking on a location navigates to its corresponding detail page and displays list of all events from the `events` table associated with that location.**
+- [X] **The web app uses React to display data from the API**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured Events table**
+- [X]  **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+- [X]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+- [X] **The web app displays a title.**
+- [X] **Website includes a visual interface that allows users to select a location they would like to view.**
+- [X] *Note: A non-visual list of links to different locations is insufficient.* 
+- [X] **Each location has a detail page with its own unique URL.**
+- [X] **Clicking on a location navigates to its corresponding detail page and displays list of all events from the `events` table associated with that location.**
 
 The following **optional** features are implemented:
 
-- [ ] An additional page shows all possible events
-  - [ ] Users can sort *or* filter events by location.
-- [ ] Events display a countdown showing the time remaining before that event
-  - [ ] Events appear with different formatting when the event has passed (ex. negative time, indication the event has passed, crossed out, etc.).
+- [X] An additional page shows all possible events
+- [X] Users can sort *or* filter events by location.
+- [X] Events display a countdown showing the time remaining before that event
+- [X] Events appear with different formatting when the event has passed (ex. negative time, indication the event has passed, crossed out, etc.).
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you added to improve the site's functionality!
+- [X] List anything else that you added to improve the site's functionality! ( CREATE A LOGIN PAGE TO EDIT DATA)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VSC-My-Walkthough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  GIF tool here

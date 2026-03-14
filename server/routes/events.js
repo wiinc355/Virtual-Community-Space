@@ -23,4 +23,24 @@ router.get('/', async (req, res) => {
   }
 })
 
+router.get('/location/:locationId', async (req, res) => {
+  try {
+    const result = await pool.query('SELECT * FROM events WHERE location = $1 ORDER BY id ASC', [req.params.locationId])
+
+    const events = result.rows.map((row) => ({
+      id: row.id,
+      title: row.title,
+      event_date: row.event_date,
+      event_time: row.event_time,
+      location: row.location,
+      image: row.image
+    }))
+
+    res.json(events)
+  } catch (error) {
+    console.error('Error fetching location events:', error)
+    res.status(500).json({ error: 'Failed to fetch location events' })
+  }
+})
+
 export default router

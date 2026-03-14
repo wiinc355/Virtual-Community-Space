@@ -38,8 +38,8 @@
 #root h1 {
     font-family: Rock Salt, cursive;
     font-size: 3em;
-    font-weight: bold;
-    color: white;
+    font-weight: 900;
+    color: #ffffff;
     text-shadow: 3px 3px 4px black;
 }
 

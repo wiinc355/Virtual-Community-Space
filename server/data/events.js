@@ -11,7 +11,7 @@ const eventData = [
 {
 "id": 2,
 "title": "Spiritbox",
-"event_date": "2026-04-21",
+"event_date": "2023-04-21",
 "event_time": 1800,
 "location": 1,
 "image": "https://i.scdn.co/image/ab6761610000e5eb9e6c14bd347a74387a544d05"
@@ -91,7 +91,7 @@ const eventData = [
 {
 "id": 12,
 "title": "Thrice",
-"event_date": "2027-05-21",
+"event_date": "2025-05-21",
 "event_time": 1900,
 "location": 1,
 "image": "https://i.scdn.co/image/ab6761610000e5eb6a29072c320c99c245fe24e2"
@@ -115,7 +115,7 @@ const eventData = [
 {
 "id": 15,
 "title": "Depeche Mode",
-"event_date": "2026-10-01",
+"event_date": "2025-10-01",
 "event_time": 1900,
 "location": 4,
 "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Depeche_mode_in_portland_Nov_2023.jpg/330px-Depeche_mode_in_portland_Nov_2023.jpg"

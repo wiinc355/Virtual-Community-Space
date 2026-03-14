@@ -14,7 +14,12 @@ async function createLocationsTable() {
 
     CREATE TABLE IF NOT EXISTS locations (
       id INTEGER PRIMARY KEY,
-      name VARCHAR(255) NOT NULL
+      name VARCHAR(255) NOT NULL,
+      address VARCHAR(255) NOT NULL,
+      city VARCHAR(255) NOT NULL,
+      state VARCHAR(50) NOT NULL,
+      zip VARCHAR(20) NOT NULL,
+      image TEXT
     );
   `
 
@@ -29,13 +34,21 @@ async function createLocationsTable() {
 
 async function seedLocationsTable() {
   const insertQuery = `
-    INSERT INTO locations (id, name)
-    VALUES ($1, $2);
+    INSERT INTO locations (id, name, address, city, state, zip, image)
+    VALUES ($1, $2, $3, $4, $5, $6, $7);
   `
 
   try {
     for (const location of locationData) {
-      await pool.query(insertQuery, [location.id, location.name])
+      await pool.query(insertQuery, [
+        location.id,
+        location.name,
+        location.address,
+        location.city,
+        location.state,
+        location.zip,
+        location.image
+      ])
       console.log(`✅ ${location.name} added successfully`)
     }
     console.log(`✅ seeded ${locationData.length} locations`)
