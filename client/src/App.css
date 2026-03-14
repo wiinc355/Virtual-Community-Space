@@ -27,6 +27,11 @@ header {
     justify-content: space-around;
 }
 
+.header-buttons a {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 .header-buttons button {
     margin-right: 20px;
     margin-left: 20px;

@@ -1,0 +1,48 @@
+.events-page {
+    width: 100%;
+    padding: 0 30px 30px;
+}
+
+.events-page h2 {
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.events-controls {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.location-filter {
+    min-width: 240px;
+    margin: 0;
+    height: 60px;
+    box-sizing: border-box;
+    outline-offset: 0 !important;
+    text-transform: none;
+}
+
+.show-all-events-btn {
+    margin: 0;
+    height: 60px;
+    padding: 0 18px;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.events-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.events-empty {
+    margin: 12px 0;
+}
