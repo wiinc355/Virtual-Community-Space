@@ -57,7 +57,7 @@ Here's a walkthrough of implemented required features:
 
 <br><br>
 
-<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VSC-A-My-Walkthough.gif' width='600'/>
+<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VSC-B-My-Walkthough.gif' width='600'/>
 
 <br><br>
 
@@ -75,7 +75,6 @@ GIF created with ...  GIF tool here
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-B-My-Walkthough.gif' width='600'/>
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
