@@ -72,10 +72,6 @@ GIF created with ...  GIF tool here
 ## Notes
 <img src="https://raw.githubusercontent.com/wiinc355/Virtual-Community-Space/main/VSC-B-My-Walkthough.gif" width="700">
 
-<br><br>
-
-<img src="https://raw.githubusercontent.com/wiinc355/Virtual-Community-Space/main/VSC-C-My-Walkthough.gif" width="700">
-
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 ## License
