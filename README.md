@@ -53,20 +53,10 @@ You can override the defaults in `server/.env`:
 
 Here's a walkthrough of implemented required features:
 
-<<<<<<< HEAD
-<h3>Walkthrough Videos</h3>
-
-=======
->>>>>>> aeda936 (Update admin dashboard and UI styling)
 <img src="https://raw.githubusercontent.com/wiinc355/Virtual-Community-Space/main/VCS-A-My-Walkthough.gif" width="700">
 <img src="https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-B-My-Walkthough.gif" width="700">
 <img src="https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-C-My-Walkthough.gif" width="700">
 <img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-Screenshot-My-Walkthough-snapshot.png' alt='Video Walkthrough' />
-<<<<<<< HEAD
-
-
-=======
->>>>>>> aeda936 (Update admin dashboard and UI styling)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  GIF tool here
