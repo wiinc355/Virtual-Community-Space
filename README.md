@@ -59,7 +59,7 @@ Here's a walkthrough of implemented required features:
 
 <br><br>
 
-
+<img src="https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-B-My-Walkthough.gif" width="700">
 
 
 <!-- Replace this with whatever GIF tool you used! -->
