@@ -57,7 +57,7 @@ Here's a walkthrough of implemented required features:
 
 <br><br>
 
-<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VSC-B-My-Walkthough.gif' width='600'/>
+<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VSC-A-My-Walkthough.gif' width='600'/>
 
 <br><br>
 
