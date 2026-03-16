@@ -53,7 +53,13 @@ You can override the defaults in `server/.env`:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VSC-My-Walkthough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-A-My-Walkthough.gif' title='Video A Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VSC-B-My-Walkthough.gif' title='Video B Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VSC-C-My-Walkthough.gif' title='Video C Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/virtual-community-space/VCS-Screenshot-My-Walkthough-snapshot.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  GIF tool here
