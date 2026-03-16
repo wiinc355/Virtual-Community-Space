@@ -59,11 +59,7 @@ Here's a walkthrough of implemented required features:
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/wiinc355/Virtual-Community-Space/main/VSC-B-My-Walkthough.gif" width="700">
 
-<br><br>
-
-<img src="https://raw.githubusercontent.com/wiinc355/Virtual-Community-Space/main/VSC-C-My-Walkthough.gif" width="700">
 
 
 <!-- Replace this with whatever GIF tool you used! -->
@@ -74,6 +70,11 @@ GIF created with ...  GIF tool here
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
+<img src="https://raw.githubusercontent.com/wiinc355/Virtual-Community-Space/main/VSC-B-My-Walkthough.gif" width="700">
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/wiinc355/Virtual-Community-Space/main/VSC-C-My-Walkthough.gif" width="700">
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
