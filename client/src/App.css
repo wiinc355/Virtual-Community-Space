@@ -25,14 +25,18 @@ header {
     width: 30%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    gap: 12px;
 }
 
-.header-buttons a {
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.header-buttons button {
-    margin-right: 20px;
-    margin-left: 20px;
+.header-action {
+    margin: 0 !important;
+    min-height: auto !important;
+    height: auto !important;
+    padding: 0.5rem 1rem !important;
+    font-size: 0.95rem !important;
+    line-height: 1.2;
+    white-space: nowrap;
+    color: #fff !important;
+    font-weight: 700 !important;
 }

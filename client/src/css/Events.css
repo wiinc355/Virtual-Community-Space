@@ -11,31 +11,42 @@
 
 .events-controls {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     gap: 10px;
     flex-wrap: wrap;
     margin-bottom: 24px;
 }
 
-.location-filter {
-    min-width: 240px;
+.events-controls .location-filter.header-action {
+    min-width: 0;
+    width: fit-content;
     margin: 0;
-    height: 60px;
+    height: auto;
     box-sizing: border-box;
     outline-offset: 0 !important;
     text-transform: none;
+    color: #000 !important;
+    background-color: #fff !important;
+    font-weight: 700 !important;
+}
+
+.events-controls .location-filter.header-action option {
+    color: #000;
+    background-color: #fff;
 }
 
 .show-all-events-btn {
     margin: 0;
-    height: 60px;
-    padding: 0 18px;
+    height: auto;
+    padding: 0.5rem 1rem;
     box-sizing: border-box;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #fff !important;
+    font-weight: 700 !important;
 }
 
 .events-grid {

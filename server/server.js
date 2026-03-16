@@ -5,6 +5,7 @@ import cors from 'cors'
 
 import locationsRouter from './routes/locations.js'
 import eventsRouter from './routes/events.js'
+import adminRouter from './routes/admin.js'
 
 dotenv.config()
 
@@ -23,6 +24,7 @@ else if (process.env.NODE_ENV === 'production') {
 
 app.use('/api/locations', locationsRouter)
 app.use('/api/events', eventsRouter)
+app.use('/api/admin', adminRouter)
 
 if (process.env.NODE_ENV === 'production') {
     app.get('/*', (_, res) =>

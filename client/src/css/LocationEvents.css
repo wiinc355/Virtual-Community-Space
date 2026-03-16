@@ -10,15 +10,15 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    column-gap: 24px;
-    padding: 28px 32px;
-    margin: 0 30px;
+    column-gap: 20px;
+    padding: 22px 26px;
+    margin: 0 24px;
 }
 
 .location-image img {
     width: 100%;
-    max-width: 360px;
-    height: 235px;
+    max-width: 320px;
+    height: 210px;
     object-fit: cover;
     border: 1px solid white;
     display: block;
@@ -26,6 +26,7 @@
 
 .location-info h2 {
     margin-bottom: 8px;
+    font-size: 1.5rem;
 }
 
 .location-events header p {
@@ -36,8 +37,8 @@
 
 .location-events main {
     text-align: center;
-    padding: 30px 0;
-    margin: 0 30px 30px;
+    padding: 24px 0;
+    margin: 0 24px 24px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

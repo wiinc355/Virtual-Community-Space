@@ -1,0 +1,160 @@
+/* ── Overall 3-column grid ──────────────────────────────────────── */
+.admin-dashboard-page {
+  width: 72vw;
+  min-height: 50vh;
+  display: grid;
+  grid-template-columns: 110px 200px 1fr;
+  gap: 0;
+  margin: 0 auto 2rem;
+  border: 1px solid var(--pico-muted-border-color, #ccc);
+  border-radius: 8px;
+  overflow: hidden;  transition: grid-template-columns 0.2s ease;
+}
+
+.admin-dashboard-page.nav-collapsed {
+  grid-template-columns: 36px 200px 1fr;}
+
+/* ── Column 1 – nav buttons ─────────────────────────────────────── */
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-right: 1px solid var(--pico-muted-border-color, #ccc);
+  background: var(--pico-card-background-color, #1a1a2e);
+}
+
+.admin-nav-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-nav button {
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--pico-muted-border-color, #ccc);
+  text-align: left;
+  padding: 0.25rem 0.55rem !important;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.7rem !important;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fff !important;
+}
+
+.admin-nav button:hover,
+.admin-nav button.active {
+  background: var(--pico-primary-background, #0d6efd);
+  color: #fff;
+}
+
+/* ── Column 2 – sorted hyperlink list ───────────────────────────── */
+.admin-list-col {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+  border-right: 1px solid var(--pico-muted-border-color, #ccc);
+  overflow-y: auto;
+  max-height: 55vh;
+  background: #5b9bd5;
+}
+
+.admin-list-col li {
+  padding: 0;
+}
+
+.admin-list-col a {
+  display: block;
+  padding: 0.35rem 0.75rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.78rem;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.admin-list-col a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  text-decoration: underline;
+}
+
+.admin-list-col a.selected {
+  background: var(--pico-primary-background, #0d6efd);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ── Column 3 – detail / add panel ─────────────────────────────── */
+.admin-detail-col {
+  padding: 0.6rem 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  overflow-y: auto;
+  max-height: 55vh;
+  background: #d9d9d9;
+}
+
+.admin-detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-detail-header h3 {
+  margin: 0;
+  font-size: 0.82rem;
+  color: #111;
+}
+
+.add-btn {
+  white-space: nowrap;
+  font-size: 0.7rem !important;
+  padding: 0.25rem 0.55rem !important;
+}
+
+/* ── Form fields ────────────────────────────────────────────────── */
+.admin-form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.5rem;
+  row-gap: 0.2rem;
+  align-items: center;
+}
+
+.admin-form label {
+  font-size: 0.68rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: #111;
+}
+
+.admin-dashboard-page .admin-form input {
+  margin: 0 !important;
+  padding: 2px 4px !important;
+  font-size: 0.68rem !important;
+  height: auto !important;
+  max-width: 220px;
+  line-height: 1.2;
+  box-sizing: border-box;
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+/* ── Action buttons row ─────────────────────────────────────────── */
+.admin-action-row {
+  display: flex;
+  gap: 0.4rem;
+  padding-top: 0.15rem;
+}
+
+.admin-action-row button {
+  font-size: 0.7rem;
+  padding: 0.25rem 0.55rem;
+}
+
+.admin-error {
+  color: var(--pico-del-color, #f87171);
+}
+

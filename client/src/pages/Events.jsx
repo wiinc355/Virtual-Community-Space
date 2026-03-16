@@ -35,7 +35,7 @@ const Events = () => {
     <div className='events-page'>
       <div className='events-controls'>
         <select
-          className='location-filter'
+          className='location-filter header-action'
           id='location-filter'
           value={selectedLocation}
           onChange={(event) => setSelectedLocation(event.target.value)}
@@ -49,7 +49,7 @@ const Events = () => {
         </select>
 
         <button
-          className='show-all-events-btn'
+          className='show-all-events-btn header-action'
           type='button'
           onClick={() => setSelectedLocation('all')}
         >

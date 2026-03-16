@@ -1,0 +1,50 @@
+.admin-login-page {
+  min-height: 60vh;
+  display: grid;
+  place-items: center;
+}
+
+.admin-login-card {
+  width: min(360px, 90vw);
+  border: 15px solid var(--pico-muted-border-color, #ccc);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.admin-login-card h2 {
+  font-size: 0.95rem;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.admin-login-card form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.6rem;
+  row-gap: 0.4rem;
+  align-items: center;
+}
+
+.admin-login-card label {
+  font-size: 0.68rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.admin-login-card input {
+  padding: 2px 4px !important;
+  font-size: 0.68rem !important;
+  height: auto !important;
+  line-height: 1.2;
+  width: 100%;
+  max-width: 220px;
+  box-sizing: border-box;
+}
+
+.admin-login-card button[type='submit'] {
+  grid-column: 1 / -1;
+  justify-self: center;
+  font-size: 0.7rem !important;
+  padding: 0.25rem 0.55rem !important;
+  margin-top: 0.4rem;
+}

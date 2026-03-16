@@ -31,7 +31,23 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [X] List anything else that you added to improve the site's functionality! ( CREATE A LOGIN PAGE TO EDIT DATA)
+- [X] Admin login flow to secure edit/delete operations for database records
+- [X] Admin dashboard with a left-side navigation between `Locations` and `Events`
+- [X] Sorted clickable data list (name/title), with detail view and edit/delete controls
+
+## Admin Access
+
+- Login URL: `/admin/login`
+- Admin dashboard URL: `/admin`
+- Default admin credentials (if env vars are not set):
+	- Username: `admin`
+	- Password: `admin123`
+
+You can override the defaults in `server/.env`:
+
+- `ADMIN_USERNAME`
+- `ADMIN_PASSWORD`
+- `ADMIN_TOKEN`
 
 ## Video Walkthrough
 
