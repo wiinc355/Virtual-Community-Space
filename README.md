@@ -56,9 +56,6 @@ Here's a walkthrough of implemented required features:
 <h3>Walkthrough Videos</h3>
 
 <img src="https://raw.githubusercontent.com/wiinc355/Virtual-Community-Space/main/VCS-A-My-Walkthough.gif" width="700">
-
-<br><br>
-
 <img src="https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-B-My-Walkthough.gif" width="700">
 <img src="https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-C-My-Walkthough.gif" width="700">
 
@@ -71,7 +68,6 @@ GIF created with ...  GIF tool here
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-<img src="https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-B-My-Walkthough.gif" width="700">
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
