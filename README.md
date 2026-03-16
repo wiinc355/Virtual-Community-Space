@@ -70,7 +70,7 @@ GIF created with ...  GIF tool here
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-<img src="https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-A-My-Walkthough.gif" width="700">
+<img src="https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-B-My-Walkthough.gif" width="700">
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
