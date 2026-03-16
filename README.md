@@ -53,7 +53,7 @@ You can override the defaults in `server/.env`:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-B-My-Walkthough.gif' width='600'/>
+<img src='https://github.com/wiinc355/Virtual-Community-Space/blob/main/VCS-A-My-Walkthough.gif' width='600'/>
 
 <br><br>
 
